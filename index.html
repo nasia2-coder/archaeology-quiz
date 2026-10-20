@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="An interactive archaeology quiz. Explore the connection between the past and our lives today.">
+  <title>Archaeology — Then & Now</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="quiz-data.js" defer></script>
+  <script src="quiz-engine.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+  <header class="masthead"><a class="brand" href="./" aria-label="Archaeology quiz home"><span class="brand-mark" aria-hidden="true">A.</span><span>ARCHAEOLOGY<span class="brand-sub">THEN & NOW</span></span></a><span class="edition">AN INTERACTIVE QUIZ</span></header>
+  <main class="scene" id="scene">
+    <aside class="rail rail-left" id="left-rail" aria-label="Explanation or related image" hidden></aside>
+    <section class="panel" id="panel" aria-labelledby="screen-title"></section>
+    <aside class="rail rail-right" id="right-rail" aria-label="Explanation or related image" hidden></aside>
+  </main>
+  <footer class="site-footer"><span>PAST MEETS PRESENT</span><span id="footer-note">20 QUESTIONS · TAKE YOUR TIME</span></footer>
+  <noscript><div class="noscript">Please enable JavaScript to take the quiz.</div></noscript>
+</body>
+</html>

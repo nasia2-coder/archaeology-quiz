@@ -62,7 +62,7 @@
     const feedback = document.getElementById('feedback');
     feedback.textContent = neutral ? '' : correct ? '✓ Correct!' : `✕ Not quite. The correct answer is ${q.correct}.`;
     if (!neutral) feedback.classList.add(correct ? 'correct-text' : 'wrong-text');
-    if (!neutral && !correct) showFeedback(q);
+    if (!neutral) showFeedback(q);
     const next = document.getElementById('next');
     next.hidden = false;
     next.focus({ preventScroll: true });

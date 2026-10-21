@@ -244,18 +244,33 @@ window.QUIZ_DATA = {
     },
     {
       "id": 9,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-      "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+      "text": "What is essential for both an average skier and an Inuit person from AD 1000–1600?": {
+        "A": "Sunscreen",
+        "B": "Compression ski socks",
+        "C": "An après-ski hangover",
+        "D": "Snow goggles"
       },
       "correct": "D",
       "character": "indianaWhip",
       "side": "right",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Snow goggles were designed to protect the eyesight of Inuit people from snow blindness when they were outdoors. Snow blindness is basically a sunburn of the eyes that affects vision. Many Inuit groups are known to have made snow goggles to overcome this risk, usually out of ivory or wood."": null
+    },
+    "image": [
+        {
+          "src": "assets/snow-goggles-front.jpg",
+          "alt": "Inuit snow goggles viewed from the front",
+          "caption": "Snow goggles, front view",
+          "credit": "Canadian Museum of History",
+          "sourceUrl": "https://www.historymuseum.ca/collections/artifact/855927"
+        },
+        {
+          "src": "assets/snow-goggles-back.jpg",
+          "alt": "Inuit snow goggles viewed from the back",
+          "caption": "Snow goggles, back view",
+          "credit": "Canadian Museum of History",
+          "sourceUrl": "https://www.historymuseum.ca/collections/artifact/855927"
+        }
+      ]
     },
     {
       "id": 10,

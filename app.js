@@ -77,20 +77,25 @@
       rail.hidden = false;
       visibleRails += 1;
     }
-    if (q.image?.src) {
+    const images = Array.isArray(q.image) ? q.image : q.image?.src ? [q.image] : [];
+    if (images.length) {
       const rail = rails[side === 'left' ? 'right' : 'left'];
-      let credit = escape(q.image.credit || '');
-      if (q.image.sourceUrl && /^https?:\/\//i.test(q.image.sourceUrl)) credit = `<a href="${escape(q.image.sourceUrl)}" target="_blank" rel="noopener noreferrer">${credit || 'Image source'}</a>`;
-      rail.innerHTML = `<figure class="evidence"><img src="${escape(q.image.src)}" alt="${escape(q.image.alt || '')}"><figcaption>${escape(q.image.caption || '')}${credit ? `<span class="source">${credit}</span>` : ''}</figcaption></figure>`;
+      rail.innerHTML = `<div class="evidence-gallery${images.length > 1 ? ' evidence-pair' : ''}">${images.map(item => {
+        let credit = escape(item.credit || '');
+        if (item.sourceUrl && /^https?:\/\//i.test(item.sourceUrl)) credit = `<a href="${escape(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">${credit || 'Image source'}</a>`;
+        return `<figure class="evidence"><a class="evidence-enlarge" href="${escape(item.src)}" target="_blank" rel="noopener noreferrer" aria-label="${escape('Open full image: ' + item.alt)}"><img src="${escape(item.src)}" alt="${escape(item.alt || '')}"></a><figcaption>${escape(item.caption || '')}${credit ? `<span class="source">${credit}</span>` : ''}</figcaption></figure>`;
+      }).join('')}</div>`;
       rail.hidden = false;
-      const evidenceImage = rail.querySelector('img');
-      evidenceImage.addEventListener('error', () => {
-        rail.hidden = true;
-        visibleRails -= 1;
-        scene.classList.toggle('single-feedback', visibleRails === 1);
-        scene.classList.toggle('has-feedback', visibleRails > 0);
-      }, { once: true });
       visibleRails += 1;
+      rail.querySelectorAll('img').forEach(evidenceImage => evidenceImage.addEventListener('error', () => {
+        evidenceImage.closest('figure').hidden = true;
+        if (![...rail.querySelectorAll('figure')].some(figure => !figure.hidden) && !rail.hidden) {
+          rail.hidden = true;
+          visibleRails -= 1;
+          scene.classList.toggle('single-feedback', visibleRails === 1);
+          scene.classList.toggle('has-feedback', visibleRails > 0);
+        }
+      }, { once: true }));
     }
     scene.classList.toggle('has-feedback', visibleRails > 0);
     scene.classList.toggle('single-feedback', visibleRails === 1);

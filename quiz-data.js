@@ -244,7 +244,8 @@ window.QUIZ_DATA = {
     },
     {
       "id": 9,
-      "text": "What is essential for both an average skier and an Inuit person from AD 1000–1600?": {
+      "text": "What is essential for both an average skier and an Inuit person from AD 1000–1600?",
+      "options": {
         "A": "Sunscreen",
         "B": "Compression ski socks",
         "C": "An après-ski hangover",
@@ -253,8 +254,8 @@ window.QUIZ_DATA = {
       "correct": "D",
       "character": "indianaWhip",
       "side": "right",
-      "explanation": "Snow goggles were designed to protect the eyesight of Inuit people from snow blindness when they were outdoors. Snow blindness is basically a sunburn of the eyes that affects vision. Many Inuit groups are known to have made snow goggles to overcome this risk, usually out of ivory or wood."": null
-    },
+      "explanation": "Snow goggles were designed to protect the eyesight of Inuit people from snow blindness when they were outdoors. Snow blindness is basically a sunburn of the eyes that affects vision. Many Inuit groups are known to have made snow goggles to overcome this risk, usually out of ivory or wood.",
+    ,
     "image": [
         {
           "src": "assets/snow-goggles-front.jpg",
@@ -293,18 +294,24 @@ window.QUIZ_DATA = {
     },
     {
       "id": 11,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "You are in Egypt around 3100 BC and want to order something from Tell es-Sakan, in present-day Gaza. What would you order?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Wine",
+        "B": "Cement",
+        "C": "A bouquet of roses",
+        "D": "Teddy bears"
       },
       "correct": "A",
       "character": "laraStanding",
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Tell es-Sakan, in present-day Gaza, was part of ancient Canaan. Archaeological finds dating to the Early Bronze Age provide evidence of human settlement and offer valuable information about trade between Egypt and the eastern Mediterranean. The large number of wine jars found there suggests that wine was an important export to Egypt.\n\nToday, Gaza’s archaeological and cultural heritage faces the risk of irreversible loss. Protecting heritage throughout the region is essential to preserving the evidence of these communities, their everyday lives and their connections across thousands of years.",
+      "image": 
+         "src": "assets/tell-es-sakan.png",
+        "alt": "Overview of the excavations at Tell es-Sakan",
+        "caption": "Excavations at Tell es-Sakan, in present-day Gaza",
+        "credit": "Source: The BAS Library",
+        "sourceUrl": "https://library.biblicalarchaeology.org/book/the-new-encyclopedia-of-archaeological-excavations-in-the-holy-land/sakan-tell-es/"
+      }
     },
     {
       "id": 12,

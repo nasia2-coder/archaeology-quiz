@@ -255,7 +255,6 @@ window.QUIZ_DATA = {
       "character": "indianaWhip",
       "side": "right",
       "explanation": "Snow goggles were designed to protect the eyesight of Inuit people from snow blindness when they were outdoors. Snow blindness is basically a sunburn of the eyes that affects vision. Many Inuit groups are known to have made snow goggles to overcome this risk, usually out of ivory or wood.",
-    ,
     "image": [
         {
           "src": "assets/snow-goggles-front.jpg",
@@ -305,7 +304,7 @@ window.QUIZ_DATA = {
       "character": "laraStanding",
       "side": "left",
       "explanation": "Tell es-Sakan, in present-day Gaza, was part of ancient Canaan. Archaeological finds dating to the Early Bronze Age provide evidence of human settlement and offer valuable information about trade between Egypt and the eastern Mediterranean. The large number of wine jars found there suggests that wine was an important export to Egypt.\n\nToday, Gaza’s archaeological and cultural heritage faces the risk of irreversible loss. Protecting heritage throughout the region is essential to preserving the evidence of these communities, their everyday lives and their connections across thousands of years.",
-      "image": 
+      "image": {
          "src": "assets/tell-es-sakan.png",
         "alt": "Overview of the excavations at Tell es-Sakan",
         "caption": "Excavations at Tell es-Sakan, in present-day Gaza",

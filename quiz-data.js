@@ -397,7 +397,7 @@ window.QUIZ_DATA = {
       "correct": "D",
       "character": "indianaWhip",
       "side": "right",
-      "explanation": "The 10,300 year old skeleton known as “Cheddar Man” was discovered in England in 1903. Archaeologists have done extensive research on the skeleton, including a modern genetic test of residents in the surrounding area which connected a man in the village of Cheddar, only a few kilometers from the site of the excavation, to Cheddar Man through a common female ancestor!",
+      "explanation": "The 10,300 year old skeleton known as “Cheddar Man” was discovered in England in 1903. Archaeologists have done extensive research on the skeleton, including a modern genetic test of residents in the surrounding area which connected a man in the village of Cheddar, only a few kilometers from the site of the excavation, to Cheddar Man through a common female ancestor. Newer research has found some problems with this study, but clarified that many people in the surrounding area still have DNA carried over from Cheddar Man and others who lived at the same time",
       "image": {
         "src": "assets/MustardMan.jpeg",
         "alt": "Possible reconstruction of Cheddar Man, Academia",

@@ -33,7 +33,7 @@ window.QUIZ_DATA = {
   "results": {
     "high": {
       "title": "Let’s go digging!",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "text": "Well, well, well, looks like we have an archaeologist among us. Congratulations, you know enough for us to call you one of us!\n\nIt is fascinating to learn new things, especially when they offer different perspectives on the world and the \n\npeople around you. Humans continue to evolve, and we believe that understanding the past is just as \n\nimportant as understanding the present and imagining the future. Archaeology deserves a place in our \n\nmodern lives, and maybe you see that too.\n\nEither way, we hope you enjoyed this quiz and perhaps learned something new! Feel free to explore your \n\ninterests, and who knows? Maybe one day you’ll discover something brand new!\n\nLEGO Lara Croft and LEGO Indiana Jones wish you an exciting journey, and maybe they’ll see you in the field!",
       "characters": [
         {
           "src": "assets/lara-finale.png",
@@ -47,7 +47,7 @@ window.QUIZ_DATA = {
     },
     "low": {
       "title": "There’s more to discover.",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "text": "We don’t always need to win to have a good time!\n\n Many of these questions may have been unfamiliar to you, and that’s okay. The purpose of this quiz is to share some fun facts about the impact archaeology has on our modern lives,\n\n and regardless of your score, we hope we’ve achieved that with you.If any of the questions sparked your interest,\n\n feel free to look for more information, open a map (because that usually helps), and who knows? Maybe you’ll discover something brand new!\n\nExplore your interests and our shared history. You might also discover that humans around the globe have more in common than you think!\n\n LEGO Lara Croft and LEGO Indiana Jones wish you an exciting journey wherever your curiosity takes you!",
       "characters": [
         {
           "src": "assets/lara-encouragement-transparent.png",

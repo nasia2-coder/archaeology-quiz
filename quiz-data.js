@@ -33,7 +33,7 @@ window.QUIZ_DATA = {
   "results": {
     "high": {
       "title": "Let’s go digging!",
-      "text": "Well, well, well, looks like we have an archaeologist among us. Congratulations, you know enough for us to call you one of us!\n\nIt is fascinating to learn new things, especially when they offer different perspectives on the world and the \n\npeople around you. Humans continue to evolve, and we believe that understanding the past is just as \n\nimportant as understanding the present and imagining the future. Archaeology deserves a place in our \n\nmodern lives, and maybe you see that too.\n\nEither way, we hope you enjoyed this quiz and perhaps learned something new! Feel free to explore your \n\ninterests, and who knows? Maybe one day you’ll discover something brand new!\n\nLEGO Lara Croft and LEGO Indiana Jones wish you an exciting journey, and maybe they’ll see you in the field!",
+      "text": "Well, well, well, looks like we have an archaeologist among us. Congratulations, you know enough for us to call you one of us!\n\nIt is fascinating to learn new things, especially when they offer different perspectives on the world and the people around you. Humans continue to evolve, and we believe that understanding the past is just as important as understanding the present and imagining the future. Archaeology deserves a place in our modern lives, and maybe you see that too.\n\nEither way, we hope you enjoyed this quiz and perhaps learned something new! Feel free to explore your interests, and who knows? Maybe one day you’ll discover something brand new!",
       "characters": [
         {
           "src": "assets/lara-finale.png",
@@ -43,11 +43,12 @@ window.QUIZ_DATA = {
           "src": "assets/indiana-smiling-transparent.png",
           "alt": "Smiling LEGO Indiana Jones"
         }
-      ]
+      ],
+      "signature": "LEGO Lara Croft and LEGO Indiana Jones wish you an exciting journey, and maybe they’ll see you in the field!"
     },
     "low": {
       "title": "There’s more to discover.",
-      "text": "We don’t always need to win to have a good time!\n\n Many of these questions may have been unfamiliar to you, and that’s okay. The purpose of this quiz is to share some fun facts about the impact archaeology has on our modern lives,\n\n and regardless of your score, we hope we’ve achieved that with you.If any of the questions sparked your interest,\n\n feel free to look for more information, open a map (because that usually helps), and who knows? Maybe you’ll discover something brand new!\n\nExplore your interests and our shared history. You might also discover that humans around the globe have more in common than you think!\n\n LEGO Lara Croft and LEGO Indiana Jones wish you an exciting journey wherever your curiosity takes you!",
+      "text": "We don’t always need to win to have a good time! Many of these questions may have been unfamiliar to you, and that’s okay. The purpose of this quiz is to share some fun facts about the impact archaeology has on our modern lives, and regardless of your score, we hope we’ve achieved that with you.\n\nIf any of the questions sparked your interest, feel free to look for more information, open a map (because that usually helps), and who knows? Maybe you’ll discover something brand new!\n\nExplore your interests and our shared history. You might also discover that humans around the globe have more in common than you think!",
       "characters": [
         {
           "src": "assets/lara-encouragement-transparent.png",
@@ -57,7 +58,8 @@ window.QUIZ_DATA = {
           "src": "assets/indiana-encouragement-transparent.png",
           "alt": "LEGO Indiana Jones touching his hat"
         }
-      ]
+      ],
+      "signature": "LEGO Lara Croft and LEGO Indiana Jones wish you an exciting journey wherever your curiosity takes you!"
     }
   },
   "questions": [
@@ -255,7 +257,7 @@ window.QUIZ_DATA = {
       "character": "indianaWhip",
       "side": "right",
       "explanation": "Snow goggles were designed to protect the eyesight of Inuit people from snow blindness when they were outdoors. Snow blindness is basically a sunburn of the eyes that affects vision. Many Inuit groups are known to have made snow goggles to overcome this risk, usually out of ivory or wood.",
-    "image": [
+      "image": [
         {
           "src": "assets/snow-goggles-front.jpg",
           "alt": "Inuit snow goggles viewed from the front",
@@ -305,132 +307,185 @@ window.QUIZ_DATA = {
       "side": "left",
       "explanation": "Tell es-Sakan, in present-day Gaza, was part of ancient Canaan. Archaeological finds dating to the Early Bronze Age provide evidence of human settlement and offer valuable information about trade between Egypt and the eastern Mediterranean. The large number of wine jars found there suggests that wine was an important export to Egypt.\n\nToday, Gaza’s archaeological and cultural heritage faces the risk of irreversible loss. Protecting heritage throughout the region is essential to preserving the evidence of these communities, their everyday lives and their connections across thousands of years.",
       "image": {
-         "src": "assets/tell-es-sakan.png",
-        "alt": "Overview of the excavations at Tell es-Sakan",
+        "src": "assets/tell-es-sakan.png",
+        "alt": "Excavations at Tell es-Sakan, in present-day Gaza",
         "caption": "Excavations at Tell es-Sakan, in present-day Gaza",
-        "credit": "Source: The BAS Library",
-        "sourceUrl": "https://library.biblicalarchaeology.org/book/the-new-encyclopedia-of-archaeological-excavations-in-the-holy-land/sakan-tell-es/"
+        "sourceUrl": "https://library.biblicalarchaeology.org/book/the-new-encyclopedia-of-archaeological-excavations-in-the-holy-land/sakan-tell-es/",
+        "credit": "Source: The BAS Library"
       }
     },
     {
       "id": 12,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "Which of these common activities were also normal for people living in Sweden 10,000 years ago?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Making coffee",
+        "B": "Cycling to work",
+        "C": "Chewing gum",
+        "D": "Writing"
       },
       "correct": "C",
       "character": "indianaWhip",
       "side": "right",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Several examples of prehistoric “chewing gum”, made from birch pitch, have been discovered throughout Scandinavia. A number of samples from Sweden are between 9,500-9,900 years old! Archaeologists have been able to extract DNA samples from pieces of ancient gum from which they’ve uncovered information on the genes and likely appearances of the people who chewed them, as well as their oral health through the DNA of their microbiomes.",
+      "image": {
+        "src": "assets/gum.jpeg",
+        "alt": "(Birch gum and casts, Stockholm University)",
+        "caption": "(Birch gum and casts, Stockholm University)"
+      }
     },
     {
       "id": 13,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "Which ancient civilization played a sport similar to modern basketball or soccer, complete with hoops, courts, and rules against using your hands?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Sumer",
+        "B": "The Han dynasty",
+        "C": "The Maya",
+        "D": "Sparta"
       },
       "correct": "C",
       "character": "laraAction",
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Many mesoamerican cities, most famously the Mayan cities throughout the Yucatan region of Mexico and Central America, contain stone courts for pok-ta-pok, or “ballgame”. These courts typically have carved stone hoops mounted sideways at the top of the court walls. Artistic depictions on ceramics and murals, as well as written descriptions and preserved rubber balls, outline a game where teams of 2 to 6 players used their hips, knees, and elbows to either pass the ball past the opposing team's end zone or shoot it through one of the stone hoops.",
+      "image": [
+        {
+          "src": "assets/hoops.jpeg",
+          "alt": "(Ball court, World History Encyclopedia)",
+          "caption": "(Ball court, World History Encyclopedia)"
+        },
+        {
+          "src": "assets/hoops2.jpeg",
+          "alt": "Mural depicting the ballgame, Maya Archaeologist",
+          "caption": "Mural depicting the ballgame, Maya Archaeologist"
+        }
+      ]
     },
     {
       "id": 14,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "What two finds from the ancient city of Pompeii can also be found on a street in any major city today?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Fast food stands and graffiti",
+        "B": "Rows of tombs and mosaic floors",
+        "C": "Traffic jams and tourists",
+        "D": "Plaster casts of human and canine bodies"
       },
       "correct": "A",
       "character": "laraStanding",
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Among the many archeological discoveries at the Roman city of Pompeii, researchers have excavated a “thermopolium”. This site likely functioned as a sort of fast food hub where vendors could sell various food items from long counters that doubled as stovetops. These counters even have preserved artwork of the animals whose meat was sold at the stands. In other areas, painted and carved graffiti remains on the walls of buildings. Much like today’s street art, this ancient graffiti was made up of drawings as well as names, jokes, insults, arguments, and conversations.",
+      "image": [
+        {
+          "src": "assets/food-stants.jpeg",
+          "alt": "Thermopolium, Archaeological Park of Pompeii",
+          "caption": "Thermopolium, Archaeological Park of Pompeii"
+        },
+        {
+          "src": "assets/grafitti.jpeg",
+          "alt": "Graffiti writing, Cambridge University",
+          "caption": "Graffiti writing, Cambridge University"
+        }
+      ]
     },
     {
       "id": 15,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "How far back in time have archaeological genetics been able to go to connect a living person with an ancient ancestor?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "1,000 years",
+        "B": "Definitely before yesterday",
+        "C": "50,000 years",
+        "D": "10,000 years"
       },
       "correct": "D",
       "character": "indianaWhip",
       "side": "right",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "The 10,300 year old skeleton known as “Cheddar Man” was discovered in England in 1903. Archaeologists have done extensive research on the skeleton, including a modern genetic test of residents in the surrounding area which connected a man in the village of Cheddar, only a few kilometers from the site of the excavation, to Cheddar Man through a common female ancestor!",
+      "image": {
+        "src": "assets/MustardMan.jpeg",
+        "alt": "Possible reconstruction of Cheddar Man, Academia",
+        "caption": "Possible reconstruction of Cheddar Man, Academia"
+      }
     },
     {
       "id": 16,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "The archaeology of which of the following regions relies on collaboration with indigenous communities who maintain ancient practices and provide information on artifacts and sites?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Northern Europe",
+        "B": "East Asia",
+        "C": "Southwest United States",
+        "D": "Atlantis"
       },
       "correct": "C",
       "character": "laraAction",
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Though it is certainly not the only place of this kind, archaeology in the American Southwest is especially well preserved because of the cultures and histories of the many indigenous communities living throughout the region. Many of these groups maintain oral traditions that provide key information on the movements of people throughout history. Beyond this, they commonly use items and practice traditions the same way their ancestors did well before European colonization and into the deep past. As a result, their direct involvement in archaeological research is extremely important and provides an example for how to directly connect the past with the present.",
+      "image": [
+        {
+          "src": "assets/Ancient rock art .jpeg",
+          "alt": "Ancient rock art believed to depict a Zuni Shalako spirit",
+          "caption": "Ancient rock art believed to depict a Zuni Shalako spirit"
+        },
+        {
+          "src": "assets/Shalako ceremony.jpeg",
+          "alt": "Rare photo of a Shalako ceremony)",
+          "caption": "Rare photo of a Shalako ceremony)"
+        }
+      ]
     },
     {
       "id": 17,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "What does your house have in common with a 5,000 year old home in Iraq, India, or Scotland?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Glass windows",
+        "B": "Running water",
+        "C": "Nosy neighbors",
+        "D": "Heating"
       },
       "correct": "B",
       "character": "laraStanding",
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Sites in all of these areas like Lothal in India, Skara Brae in Scotland, and both Nippur and Uruk in Iraq feature dug out drainage systems under buildings and houses. Dating as far back as 3-4,000 BCE, these likely functioned to carry away waste water and in some cases might represent the world’s earliest true toilets. Other theories suspect that these systems may have even served to draw baths with built in hot or cold water. Each of these civilizations would have developed this technology independently. If there’s one thing a house in any time and place needed, it was apparently a working bathroom.",
+      "image": {
+        "src": "assets/drainage system.jpeg",
+        "alt": "Indus river valley drainage system",
+        "caption": "Indus river valley drainage system"
+      }
     },
     {
       "id": 18,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "Who can you thank for the inventions that led to your compass, gps, and navigation apps?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "Ancient Chinese inventors",
+        "B": "Modern corporations",
+        "C": "18th century pirates",
+        "D": "The Romans"
       },
       "correct": "A",
       "character": "indianaWhip",
       "side": "right",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "The first true magnetic compasses appear in Chinese writings at least as early as the Han dynasty period between 202 BCE and 220 CE. Though they were originally used for divination, Chinese compasses made from iron and magnetized minerals became useful tools for ocean navigation by the 11th or 12th centuries CE. It’s no google maps, but without ancient Chinese divination, we’d be stuck asking strangers for directions.",
+      "image": {
+        "src": "assets/figurine with compass.jpeg",
+        "alt": "A figurine holding a compass",
+        "caption": "Song dynasty (1127-1279) figurine holding a compass"
+      }
     },
     {
       "id": 19,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "text": "When did human societies start intentionally altering and managing their surrounding environments?",
       "options": {
-        "A": "Lorem ipsum dolor sit amet.",
-        "B": "Consectetur adipiscing elit.",
-        "C": "Sed do eiusmod tempor.",
-        "D": "Ut labore et dolore magna."
+        "A": "1,200 years ago",
+        "B": "17,000 years ago",
+        "C": "4,500 years ago",
+        "D": "92,000 years ago"
       },
       "correct": "D",
       "character": "laraAction",
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": null
+      "explanation": "Although its likely people practiced it even earlier, the first known evidence for land management comes from the shores of Lake Malawi in east Africa. A combination of artifacts and environmental data reveal that groups in the area used fire either for controlled burns or land clearance around 92,000 years ago. Evidence for similar clearance, management, and cultivation in the distant past continues to arise around the world, and allows researchers to understand how past societies used and/or cared for their environments. This knowledge in turn influences research on contemporary preservation and land usage strategies.",
+      "image": {
+        "src": "assets/excavation.jpeg",
+        "alt": "Archaeological excavation near Lake Malawi",
+        "caption": "Excavation of one of the burn sites near lake Malawi"
+      }
     },
     {
       "id": 20,
@@ -442,9 +497,9 @@ window.QUIZ_DATA = {
         "D": "Yes, absolutely!"
       },
       "correct": "D",
-      "character": "laraStanding",
+      "character": null,
       "side": "left",
-      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "explanation": "",
       "image": null
     }
   ]

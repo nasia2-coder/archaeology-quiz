@@ -11,3 +11,6 @@
 .credits{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,170px)}
 .evidence-gallery{display:grid;gap:8px;min-width:0}.evidence-pair{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}.evidence-pair .evidence{padding:5px;min-width:0}.evidence-pair img{height:180px;width:100%;object-fit:contain}.evidence-pair figcaption{font-size:11px;padding:9px 3px 3px;overflow-wrap:anywhere}.evidence-pair .source{font-size:9px}.evidence-enlarge{display:block;cursor:zoom-in}
 @media(max-width:600px){.credits{grid-template-columns:1fr;gap:17px}.intro-copy{font-size:13px}.evidence-pair img{height:190px}.evidence-pair figcaption{font-size:12px}}
+
+/* Preserve result paragraphs and the creators’ character signatures. */
+.result-speech{white-space:pre-line}.result-signature{display:block;margin-top:20px;line-height:1.7}

@@ -106,7 +106,7 @@
     panel.className = 'panel results';
     panel.innerHTML = `<p class="eyebrow">YOUR EXPLORATION, COMPLETE</p><h2 class="result-title" id="screen-title" tabindex="-1">${escape(result.title)}</h2>
       <div class="score" aria-label="${quiz.score} out of ${quiz.scoredTotal} correct answers"><span class="score-value">${quiz.score}</span><span class="score-total">/ ${quiz.scoredTotal}</span></div>
-      <div class="result-speech">${escape(result.text)}</div><div class="result-characters">${result.characters.map(character => `<img src="${escape(character.src)}" alt="${escape(character.alt)}">`).join('')}</div>
+      <div class="result-speech">${escape(result.text)}${result.signature ? `<em class="result-signature">${escape(result.signature)}</em>` : ''}</div><div class="result-characters">${result.characters.map(character => `<img src="${escape(character.src)}" alt="${escape(character.alt)}">`).join('')}</div>
       <div class="result-footer"><span class="small-note">Your score is just for you.<br>A fresh start is always welcome.</span><button class="primary" id="restart">Play again <span class="arrow" aria-hidden="true">↻</span></button></div>`;
     document.getElementById('footer-note').textContent = 'KEEP EXPLORING';
     document.getElementById('restart').addEventListener('click', () => { quiz.reset(); intro(true); revealPanelTop(); });

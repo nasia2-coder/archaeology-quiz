@@ -8,7 +8,7 @@
 window.QUIZ_DATA = {
   "title": "Archaeology & modern life",
   "course": "Scientific Methodology in Archaeology & Advanced Scientific Methodology in Archaeology",
-  "introduction": "Hello!\n\nAs archaeologists, we discover that many things in our modern lives have roots stretching far into the past. Modern technology might seem like an exception. Or is it?\n\nStudying archaeology has changed the way we look at everyday things, and we’d love to share some of those unexpected connections with you.\n\nThis quiz explores your thoughts and knowledge about things you may encounter, use, or talk about in everyday life. We hope you’ll have fun, discover something new, and perhaps even develop a little love for archaeology along the way!\n\nLet’s get started and remember, there are no wrong answers (actually, there are, but that’s okay)!",
+  "introduction": "Hello!\n\nAs archaeologists, we discover that many things in our modern lives have roots stretching far into the past. Modern technology might seem like an exception. Or is it?\n\nStudying archaeology has changed the way we look at everyday things, and we’d love to share some of those unexpected connections with you.\n\nThis quiz explores your thoughts and knowledge about things you may encounter, use, or talk about in everyday life. We hope you’ll have fun, discover something new, and perhaps even develop a little love for archaeology along the way! P.S. If you’re using a smartphone, scroll down after each answer to see the explanation and images!\n\nLet’s get started and remember, there are no wrong answers (actually, there are, but that’s okay)!",
   "creators": [
     "Nasia Grigoropoulou",
     "Sebastian Ward"
